@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OUTPUT DISPLAY</title>
+    <script>
+        function showMessageAlert(){
+            alert('Xin chào!');
+        }
+    </script>
+    <script>
+        function showMessageDiv(){
+            document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+        }
+    </script>
+    <script>
+        function showMessageDocumentWrite(){
+            document.write('Xin chào!');
+        }
+    </script>
+    <script>
+        function showMessageConsoleLog(){
+            console.log('Xin chào!');
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="showMessageAlert();">Click Me, Alert style!</button><br>
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessageDiv();">Click Me, Div style!</button><br>
+    <button type="button" onclick="showMessageDocumentWrite();">Click Me, Doc Write style!</button><br>
+    <button type="button" onclick="showMessageConsoleLog();">Click Me, Console Log style!</button>
+
+</body>
+</html>
